@@ -1,0 +1,78 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('composition-desk-elements-cement-background_23-2148513355.jpg'); /* Add the path to your background image */
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.9);
+    background-attachment: fixed;
+}
+
+.container {
+    /* margin-top: 100px; */
+    max-width: 600px;
+    margin: 341px 518px;
+    background-color: rgb(206 206 206);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+}
+
+.header {
+    border-radius: 100px;
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.todo {
+    padding: 20px;
+}
+
+.task-list {
+    list-style: none;
+    padding: 0;
+    /* margin-top: 100px; */
+}
+
+.task-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+}
+
+.task-list li input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.task-input {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.task-input input {
+    flex: 1;
+    padding: 10px;
+}
+
+.task-input button {
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.task-input button:hover {
+    background-color: #2980b9;
+}
+
+.task-input input[type="date"] {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+}
